@@ -1,0 +1,31 @@
+---
+title: "titre du projet"
+author: "Nom des auteurs"
+format: 
+  html:
+    toc: true
+    theme: sandstone
+    embed-resources: true
+editor: visual
+---
+
+```{r main_opt, echo=F, message=F}
+knitr::opts_chunk$set(cache=F, echo=F, message=F, warning=F)
+library(tidyverse)
+library(janitor) # https://rpubs.com/iaks23/931128
+library(psych)
+library(knitr)
+```
+
+
+# Data
+## Load data
+
+## Cleaned data
+
+
+# Tabsets 
+::: {.panel-tabset}
+## Tab 1
+## Tab 2
+:::
